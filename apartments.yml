@@ -1,0 +1,17 @@
+---
+- &1 !ruby/object:Apartment
+  building: !ruby/object:Building
+    apartments:
+    - *1
+    name: Ruby Awesome!
+    floors: 3
+    postcode: EN11 8BX
+  number: '123'
+- &2 !ruby/object:Apartment
+  building: !ruby/object:Building
+    apartments:
+    - *2
+    name: Annex
+    floors: 1
+    postcode: ELKJ123
+  number: '98'
